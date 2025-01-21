@@ -240,3 +240,47 @@ footer {
     height: px;
 }
 
+@media (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        padding: 50px 10px;
+        text-align: center;
+    }
+    .banner img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    .banner input[type="text"] {
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 10px 0;
+    }
+    .body-content {
+        flex-direction: column;
+        align-content: center;
+    }
+    .body-content button {
+        width: 120px;
+        height: 120px;
+        font-size: 1.5rem;
+    }
+    .info-box {
+        width: 100%;
+        margin: 10px 0;
+        
+    }
+    .about-us {
+        width: 100%;
+        max-width: 100%;
+    }
+    .social-box {
+        width: 100%;
+    }
+    footer {
+        padding: 20px 10px;
+    }
+}
